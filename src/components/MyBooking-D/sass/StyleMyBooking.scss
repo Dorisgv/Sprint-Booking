@@ -1,0 +1,182 @@
+/*  *{
+    //font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  */ 
+@import '../sass/mixins';
+
+h1{
+    width: 167px;
+    height: 48px;
+    margin-top: 104px;
+    margin-left: 132px;
+    rotate: -0°;
+    color: #171A1F;
+    font: Sarabun;
+    font-weight: 700;
+    size: 32px;
+    line-height: 48px;
+}
+.c1{
+    width: 197px;
+    height: 4px;
+    top: 203px;
+    margin-left: 318px;
+    color: #DDE0E5;
+}
+.cVerde{
+    margin-left: -400px;
+}
+.cGrisMedio{
+    margin-left: 183px;
+/*     @include circuloGris; */
+}
+.cGrisFinal{
+    margin-left: 183px;
+/*     @include circuloGris; */
+}
+.bookingPV{
+    margin-left: 288px;
+    font-family: Sarabun;
+    font-size: 14px;
+    font-weight: 500;
+    color: #11D295;
+}
+.purchasePGM{
+    width: 57px;
+    margin-left: 487px;
+    @include pTicket;
+}
+.ticketPGF{
+    width: 104px;
+    margin-left: 665px;
+    @include pTicket;
+}
+.containerTitlePassenger{
+    @include containerTitle;
+}
+.iconInf{
+    width: 24px;
+    height: 24px;
+    margin-left: 127px;
+    rotate: -0 deg;
+
+}
+.titlePassenger{
+    @include titlePassenger;
+}
+p{
+    width: 357px;
+    height: 22px;
+    margin-top: -20px;
+    margin-left: 131px;
+    rotate: -0 deg;
+    font-family: Sarabun;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.PassengerName{
+    @include containerGrande;
+}
+.PassengerName1{
+    @include containerPequeño;
+}
+.PassengerName2{
+    @include containerPequeño;
+}
+.contPassport{
+    @include contPassportNumber;
+}
+.contTextPassport{
+    @include contTextPass;
+}
+.nombreCampo{
+    @include titleInput;
+}
+.Txt{
+    @include cTxTgrande;
+}
+.inputCampo{
+    @include input;
+}
+.nombreCampo{
+    @include titleInput;
+}
+.TxtTitle{
+    @include cTxTpeque;
+}
+.inputCampoPeq{
+    @include inputPeq;
+}
+.icon{
+    @include i_flecha;
+}
+.iconMundo{
+    @include i_mundo;
+}
+.contenedorIdentity{
+    //border: 2px solid green;
+    width: 760px;
+    height: 120px;
+    margin-top: 8px;
+    margin-left: 132px;
+    border-radius: 6px;
+    rotate: -0 deg;
+    background-color: #EFEFFE;
+    color: #6C6CFE;
+}
+.Text_Identity{
+    border: 2px solid green;
+    width: 692px;
+    height: 88px;
+    margin-top: 20px;
+    margin-left: 32px;
+    rotate: -0 deg;
+    font-family: Sarabun;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* .icon_c{
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+    margin-left: -15px;
+    rotate: -0 deg;
+    color: #9095A0;
+} */
+.contButton{
+    //border: 2px solid red;
+    width: 782px;
+    height: 44px;
+    margin-top: 70px;
+    margin-left: 120px;
+    padding: 9px, 0px, 9px, 0px;
+    border-radius: 4px;
+    rotate: -0 deg;
+    background-color: #11D295;
+}
+button{
+    width: 50px;
+    height: 26px;
+    margin-top: 9px;
+    margin-left: 366.5px;
+    rotate: -0 deg;
+    font-family: Sarabun;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FEFEFE;
+    background-color: #11D295;
+    border: none;
+
+
+}
