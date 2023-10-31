@@ -152,3 +152,30 @@
     color: #BBC0C9;
     background-color: #BBC0C9;
 }
+@mixin subtitulosLado{
+    width: 31px;
+    height: 22px;
+    top: 80px;
+    margin-left: 120px;
+    rotate: -0 deg;
+    font-family: Sarabun;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+@mixin subtitulos{
+    //border: 1px solid green;
+    width: 120px;
+    height: 22px;
+    top: 76px;
+    margin-left: 20px;
+    rotate: -0 deg;
+    font-family: Sarabun;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
