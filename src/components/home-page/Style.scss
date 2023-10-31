@@ -1,0 +1,107 @@
+.main{
+  // background-color: red;
+  width: 50%;
+  height: 80vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h1{
+    color: #171A1F;
+    font-family: Sarabun;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 140% */
+  }
+  &__selector{
+    display: flex;
+    width: 80%;
+    height: 9%;
+    justify-content:space-between;
+    gap: 30px;
+    &--division{
+      height: 35px;
+      width: 10px;
+      border: 1px solid #BBC0C9;
+    }
+    &--buttons{
+      display: flex;
+      gap: 20px;
+      &-One{
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        gap: 6px;
+        border: 1px ;
+        width: 100px;
+        color: rgb(0, 0, 0);
+        background: #f3f4f6;
+      }
+      &-Two{
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        gap: 6px;
+        border: 1px ;
+        width: 90px;
+        color: #0A7956;
+        background: #edfef8;
+      }
+    }
+    &--select{
+      display: flex;
+      gap: 20px;
+
+      &-three{
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        gap: 6px;
+        border: 1px ;
+        width: 70px;
+        color: #6C6CFE;
+        background: #f3f4f6;
+        
+        select{
+          color: #6C6CFE;
+          border: none;
+          font-family: Sarabun;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          background-color: transparent;
+        }
+
+      }
+      &-Four{
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        gap: 6px;
+        border: 1px ;
+        width: 120px;
+        color: #6C6CFE;
+        background: #f3f4f6;
+        
+        select{
+          color: #6C6CFE;
+          border: none;
+          font-family: Sarabun;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+  &__form{
+    
+    
+  }
+}
