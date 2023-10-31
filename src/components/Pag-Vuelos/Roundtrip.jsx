@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import explore from "../../assets/images/Explore your world.png";
 import iconRight from "./../../assets/images/FlechaDerecha.svg";
 import iconTicket from "./../../assets/images/Ticket.svg";
