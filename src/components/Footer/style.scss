@@ -1,0 +1,104 @@
+.footer {
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: cente
+}
+
+.footer-container {
+    max-width: 540px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-text-logo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #6C6CFE;
+}
+
+
+.footer-links {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-bottom: 18px;
+
+    .footer-grop {
+        display: flex; 
+        flex-direction: column; 
+
+        .sub-links {
+            a {
+                font-size: 12px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    a {
+        color: #212529;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer-Btnsubscribe {
+    position: relative;
+
+    .input-container {
+        position: relative;
+
+        .email-input {
+            padding-left: 30px; // espacio para el icono
+            border-radius: 10px;
+        }
+        
+    }
+
+    button {
+        background-color: #11D295;;
+        border-radius: 10px;
+        color: white;
+        padding: 10px 10px;
+        margin-top: 10px;
+
+        &:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    }
+}
+
+.footer-media-social {
+    display: flex; // Alinea los iconos de las redes sociales en la misma línea
+    justify-content: center; // Centra los iconos de las redes sociales
+    margin-bottom: 20px;
+
+    svg {
+        margin: 0 06px; // Añade un margen a los lados de cada icono de las redes sociales
+        margin-top: 10px;
+    }
+}
+
+.copyright {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 38px;
+    margin-left: 238px;
+}
